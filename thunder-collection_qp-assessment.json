@@ -1,0 +1,103 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "qp-assessment",
+    "collectionId": "84d07e8f-b635-4f8a-9b47-d63785e13a6c",
+    "dateExported": "2024-04-30T11:48:16.675Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "93739220-6fa1-4a8a-aee9-4cfe9e93d9e3",
+            "colId": "84d07e8f-b635-4f8a-9b47-d63785e13a6c",
+            "containerId": "",
+            "name": "Book Items",
+            "url": "localhost:3000/api/grocery/items/book",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-04-30T11:46:05.144Z",
+            "modified": "2024-04-30T11:46:05.144Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"items\":[\n    {\n    \"itemId\": 1,\n    \"name\": \"Fango\",\n    \"price\": 3,\n    \"quantity\": 3\n  },\n  {\n    \"itemId\": 2,\n    \"name\": \"Cango\",\n    \"price\": 5,\n    \"quantity\": 1\n  }]\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "66ba5cca-5192-4cfc-bac1-80b7db1b22d5",
+            "colId": "84d07e8f-b635-4f8a-9b47-d63785e13a6c",
+            "containerId": "",
+            "name": "Manage Inventory",
+            "url": "localhost:3000/api/grocery/item/1/inventory",
+            "method": "PATCH",
+            "sortNum": 20000,
+            "created": "2024-04-30T11:46:23.183Z",
+            "modified": "2024-04-30T11:46:23.183Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"quantity\":22\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ff91f37d-8246-4865-85f5-cd2149d4fd5a",
+            "colId": "84d07e8f-b635-4f8a-9b47-d63785e13a6c",
+            "containerId": "",
+            "name": "Update Item",
+            "url": "localhost:3000/api/grocery/item/3",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-04-30T11:46:29.197Z",
+            "modified": "2024-04-30T11:46:29.197Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"price\":20,\n  \"name\":\"orange\",\n  \"quantity\":33\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "96a10ea0-d9a2-49ca-85de-ae5f64d0ddc6",
+            "colId": "84d07e8f-b635-4f8a-9b47-d63785e13a6c",
+            "containerId": "",
+            "name": "Delete Item",
+            "url": "localhost:3000/api/grocery/item/4",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-04-30T11:46:35.414Z",
+            "modified": "2024-04-30T11:46:35.414Z",
+            "headers": []
+        },
+        {
+            "_id": "2e05c8e6-81d0-44e6-8d18-22b387edd0c4",
+            "colId": "84d07e8f-b635-4f8a-9b47-d63785e13a6c",
+            "containerId": "",
+            "name": "Add Item",
+            "url": "http://localhost:3000/api/grocery/item",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-04-30T11:46:41.486Z",
+            "modified": "2024-04-30T11:46:41.486Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n        \"name\": \"Apple\",\n        \"price\": 5,\n        \"quantity\": 100\n      }",
+                "form": []
+            }
+        },
+        {
+            "_id": "96cd6898-64ec-451e-a70e-26821b1b899f",
+            "colId": "84d07e8f-b635-4f8a-9b47-d63785e13a6c",
+            "containerId": "",
+            "name": "Fetch All Items",
+            "url": "localhost:3000/api/grocery/items",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-04-30T11:46:46.736Z",
+            "modified": "2024-04-30T11:46:46.736Z",
+            "headers": []
+        }
+    ],
+    "ref": "AWmELw_N1lv8GmxC37uuF7fhugm45Xqjh-ZzhLzXE9RUSu9IJxuxj8BlgOAWPOzRVIVlJ5zCv7MARqpRod27EA"
+}
