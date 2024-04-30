@@ -13,7 +13,7 @@
  ```npx ts-node-dev server.ts```
 
 4. **Test the Routes**: 
-Intall thuderclient extension
+Install thuderclient extension
 Use the provided collection to test the API routes.
 
 
